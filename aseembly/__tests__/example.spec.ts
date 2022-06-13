@@ -21,10 +21,15 @@ describe("Producto Agregado Correctamente", () => {
   })
 
 
-    const productInd = saveProduct.length;
-    const data = new Array<Product>(productInd);
+    let productInd = saveProduct.length;
+    let data = new Array<Product>(productInd);
     for(let i=0; i < productInd; i++) {
       data[i] = saveProduct[i]
     }
 
 
+    describe("Obtener Producto", () => {
+        it('No se encontraron productos, o hay un error', () => {
+            expect(getAllProducts()).toStrictEqual(data)
+        })
+      })
