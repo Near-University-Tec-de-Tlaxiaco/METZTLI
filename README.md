@@ -35,7 +35,9 @@ Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Aho
 ## Author
 
 - [Luis Carlos Rendon Aparicio(CxrlosMX)](https://github.com/cxrlosmx)
-
+-  [Arturo Angon Jose(ArturoAngonJosé)](https://github.com/ArturoAngonJose)
+-  [Nayeli Anai Gonzalez Lopez (Nayee123)](https://github.com/Nayee123)
+-  [Fernando Miguel Lopez (Ferch0419)](https://github.com/Ferch0419)
 ## Contact with me
 
 <a target="_blank" rel="vsc" href="https://www.linkedin.com/in/luis-carlos-rendon-8945a0221/">
