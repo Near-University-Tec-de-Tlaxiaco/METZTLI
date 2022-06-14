@@ -50,6 +50,31 @@ export class Client { //Class Client
     }
 }
 
+// 
+export class Payment { //Class Client
+    //Attributtes
+    amount: number;
+    token: String;
+
+    // Method to load the values
+    constructor(amount : number, token: String){
+        this.amount = amount;
+        this.token = token;
+    }
+}
+
+export class Store { //Class Client
+    //Attributtes
+    amount: number;
+    description: String;
+
+    // Method to load the values
+    constructor(amount : number, token: String){
+        this.amount = amount;
+        this.token = token;
+    }
+}
+
 
 export const saveProduct = new PersistentVector<Product>("s");
 export const saveUser = new PersistentVector<User>("s");
