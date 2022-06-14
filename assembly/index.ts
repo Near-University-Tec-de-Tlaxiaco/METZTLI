@@ -3,7 +3,7 @@ import {saveProduct, Product, saveUser, User, saveClient, Client} from "./model"
 
 
 //METHOD TO SAVE PRODUCTS
-export function setProduct(name : String, description : String, price : number):
+export function setProduct(name : String, description : String, price : i32):
  Product {
     //Creating a instance of product
     const prod = new Product(name, description, price);

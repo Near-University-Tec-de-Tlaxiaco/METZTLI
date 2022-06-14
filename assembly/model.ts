@@ -69,9 +69,9 @@ export class Store { //Class Client
     description: String;
 
     // Method to load the values
-    constructor(amount : number, token: String){
+    constructor(amount : number, descri: String){
         this.amount = amount;
-        this.token = token;
+        this.description = descri;
     }
 }
 
