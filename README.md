@@ -31,14 +31,23 @@ Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Aho
 4. Si quieres desplegar el contrato y probar sus funciones, puedes hacerlo con ```yarn deploy:dev``` esto le devolverá un conjunto de caracteres que empezarán por "dev-" seguido por numeros generados por la red. Guárdelo, lo necesitará si quiere probar los métodos del contrato inteligente.
 5. Por último, si queremos ejecutar los tests desarrollados, podemos hacerlo ejecutando ```yarn test```
    
+## Despliegue del contrato 🧰   
+---
+* Clone el repositorio con ```git clone https://github.com/Near-University-Tec-de-Tlaxiaco/METZTLI ```
+* Inicie sesión con su wallet de tesnet utilizando ``near login``.
+* Ejecute el comando ``yarn asb`` para compilar el contrato.
+* Para desplegar el contrato utilize la siguiente sintaxis ``near deploy --accountId (Cuenta de Testnet) --wasnFile build/release/METZTLI.wasm``.
+* Con el código ``near call`` llamamos al método que deseamos ejecutar, a continuación se muestra un ejemplo llamando al método que permite ingresar un nuevo producto: ``near call ejemplo.testnet setProduct '{"name":"Sombrero","description":"Sombrero artesanal","price":50}' --accountId ejemplo.testnet``.
 
-## Author
+## Author's 🧑‍🤝‍🧑
 
 - [Luis Carlos Rendon Aparicio(CxrlosMX)](https://github.com/cxrlosmx) 💻
 -  [Arturo Angon Jose(ArturoAngonJosé)](https://github.com/ArturoAngonJose)
 -  [Nayeli Anai Gonzalez Lopez (Nayee123)](https://github.com/Nayee123)
 -  [Fernando Miguel Lopez (Ferch0419)](https://github.com/Ferch0419)
-## Contact with me
+
+
+## Contact with the Developer(CxrlosMX)
 
 <a target="_blank" rel="vsc" href="https://www.linkedin.com/in/luis-carlos-rendon-8945a0221/">
 <img alt="likedin-logo" src="https://github.com/devicons/devicon/blob/master/icons/linkedin/linkedin-original.svg" style="max-width: 100%;"
