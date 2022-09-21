@@ -1,6 +1,6 @@
 import {PersistentVector, u128, context} from "near-sdk-as";
 
- 
+//  
 export class Product{
     // Atributtes
     name : String;
@@ -17,6 +17,7 @@ export class Product{
 }
 
 
+// Clase Usuario
 export class User{
     name : String;
     lastname : String;
