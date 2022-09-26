@@ -27,7 +27,7 @@ export function getAllProducts(): Product[] {
 }
 
 
-//Method to delete a Product
+//Method to delete a Product - with ID
 export function deleteProduct(productPosition : i32): bool{
     if(saveProduct.length < productPosition) {
         logging.log('El Producto no existe');
